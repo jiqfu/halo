@@ -49,6 +49,7 @@ public class ApiAuthenticationFilter extends AbstractAuthenticationFilter {
 
         addExcludeUrlPatterns(
             "/api/content/**/comments",
+            "/api/content/sql-restory",
             "/api/content/**/comments/**",
             "/api/content/options/comment",
             "/api/content/journals/*/likes",
